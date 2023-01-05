@@ -16,6 +16,7 @@
 <body>
     <!--faltan las img-->
     <header>
+        <img src="imagen_para_encabezado.jpeg" alt="persona de fondo viendo sus inversiones">
         <img src="Florencia_Casanova(128x128).jpg" alt="Fotografía de la Lcda. Casanova">
     <h1>Florencia Casanova</h1>
     <p>Analista financiero</p>
@@ -30,6 +31,14 @@
 
     <footer>
         <section>
+            <form action="enviar a un sript" method="post">
+                <label for="nombre_del_usuario">Nombre: </label><br>
+                <input type="text" id="nombre_del_usuario" name="nombre_del_usuario" required><br>
+                <label for="email_del_usuario">Email: </label><br>
+                <input type="email" id="email_del_usuario" name="email_del_usuario" required><br>
+                <textarea name="mansaje_del_usuario" id="mensaje_del_usuario" cols="30" rows="10" placeholder="Consulta" required></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
             <!--contactos de la persona-->
         </section>
     </footer>
