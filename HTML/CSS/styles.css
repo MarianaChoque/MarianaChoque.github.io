@@ -8,5 +8,11 @@
 --bistre: #442e1fff;
 --light-gray: #d0d6d9ff; */
 body {
-    background-color: lightgrey;
- }
+    background-color: lightgray;
+}
+
+header {
+    background-image: url("img_fondo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
