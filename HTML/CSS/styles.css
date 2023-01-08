@@ -11,10 +11,9 @@ body {
     background-color: lightgray;
 }
 
-header {
-    background-image: url("img_fondo.jpeg");
+.header {
+    background: url("img_fondo.jpeg");
     height: 300px;
-    opacity: 0.7;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;
@@ -22,9 +21,30 @@ header {
 
 .nombre {
     text-align: center;
-    text-size-adjust: 20px;
+    text-size-adjust: 60px;
+    color: #0b0b0aff;
+    opacity: 1;
 }
 
 .título {
-    
+    text-align: center;
+    text-size-adjust: 40px;
+    color: #0b0b0aff;
+    opacity: 1;
+}
+
+.foto {
+    height: 218px;
+    width: 218px;
+    image-rendering: high-quality;
+    border: 20px solid red;
+    padding: 50px;
+   -webkit-mask-image: url("circulo.png");
+   mask-image: url("circulo.png");
+   -webkit-mask-size: 80%;
+   mask-size: 80%;
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;    
+  -webkit-mask-origin: border-box;
+   mask-origin: border-box; 
 }
