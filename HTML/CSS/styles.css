@@ -10,15 +10,3 @@
 body {
     background-color: lightgrey;
  }
- header {
-    background-image: IMG("imagen_para_encabezado.jpeg");
-    background-origin: border-box;
-    background-position-y: center;
-}
-div {
-    width: 100px;
-    height: 100px;
-    background: red;
-    position: relative;
-    animation: mymove 5s;
-}
