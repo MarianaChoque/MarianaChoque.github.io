@@ -1,43 +1,68 @@
 /* la paleta de colores
---dim-gray: #6d6867ff;
---van-dyke-brown: #764228ff;
---dark-jungle-green: #132928ff;
---spanish-gray: #93989aff;
---rich-black-fogra-39: #0b0b0aff;
---antique-brass: #bb9179ff;
---bistre: #442e1fff;
---light-gray: #d0d6d9ff; */
+CA8743 Bronze
+A2642A Windsor tan
+7C604D Raw umber
+362316 Bistre
+EBDCCD Almond*/
 html {
     font-family: Tahoma, sans-serif;
 }
 body {
+    margin: 0px auto;
     background-color: lightgray;
 }
 
 header {
-    background: url("img_fondo.jpeg");
+    background: url("img_de_fondo.jpg");
+    max-width: 100%;
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px auto;
+    margin: 10px auto;
+    border: 5px;
+    padding: 50px;
 }
 
 header img {
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #764228ff;
+    max-width: 100%;
+    height: 200px;
+    border-radius: 100%;
 }
 
 header h1 {
     text-align: center;
-    text-size-adjust: 60px;
+    font-size: 3rem;
     color: #0b0b0aff;
+    margin: 0px auto;
     
 }
 
 header p {
     text-align: center;
-    text-size-adjust: 40px;
+    font-size: 2rem;
     color: #0b0b0afF;
+    margin: 0px auto;
 
 }
 
-/*maldita foto, mierda*/
+section {
+    margin: 50px;
+    border: 5px;
+    padding: 30px;
+}
+
+.h2left {
+    text-align: left;
+    float: left;
+
+}
+
+.h2right {
+    text-align: right;
+    font: ;
+    float: right;
+}
