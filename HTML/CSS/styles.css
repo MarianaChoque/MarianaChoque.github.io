@@ -1,15 +1,15 @@
 /* la paleta de colores
-CA8743 Bronze
-A2642A Windsor tan
-7C604D Raw umber
-362316 Bistre
-EBDCCD Almond*/
+#CA8743 Bronze (marron mas colorido y clarito)
+#A2642A Windsor tan (marron mas colorido)
+#7C604D Raw umber (marron narmal)
+#362316 Bistre  (marron oscuro)
+#FFEBCD Almond (cremita)*/
 html {
     font-family: Tahoma, sans-serif;
 }
 body {
     margin: 0px auto;
-    background-color: lightgray;
+    background-color: #FFEBCD ;
 }
 
 header {
@@ -27,8 +27,8 @@ header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid #764228ff;
-    max-width: 100%;
+    border: 7px solid #FFEBCD ;
+    width: 200px;
     height: 200px;
     border-radius: 100%;
 }
@@ -36,7 +36,8 @@ header img {
 header h1 {
     text-align: center;
     font-size: 3rem;
-    color: #0b0b0aff;
+    letter-spacing: 5px;
+    color: #A2642A;
     margin: 0px auto;
     
 }
@@ -44,7 +45,8 @@ header h1 {
 header p {
     text-align: center;
     font-size: 2rem;
-    color: #0b0b0afF;
+    letter-spacing: 4px;
+    color: #A2642A;
     margin: 0px auto;
 
 }
