@@ -7,44 +7,37 @@
 --antique-brass: #bb9179ff;
 --bistre: #442e1fff;
 --light-gray: #d0d6d9ff; */
+html {
+    font-family: Tahoma, sans-serif;
+}
 body {
     background-color: lightgray;
 }
 
-.header {
+header {
     background: url("img_fondo.jpeg");
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px;
+    margin: 0px auto;
 }
 
-.nombre {
+header img {
+
+}
+
+header h1 {
     text-align: center;
     text-size-adjust: 60px;
     color: #0b0b0aff;
-    opacity: 1;
+    
 }
 
-.título {
+header p {
     text-align: center;
     text-size-adjust: 40px;
-    color: #0b0b0aff;
-    opacity: 1;
+    color: #0b0b0afF;
+
 }
 
-.foto {
-    height: 218px;
-    width: 218px;
-    image-rendering: high-quality;
-    border: 20px solid red;
-    padding: 50px;
-   -webkit-mask-image: url("circulo.png");
-   mask-image: url("circulo.png");
-   -webkit-mask-size: 80%;
-   mask-size: 80%;
-   -webkit-mask-repeat: no-repeat;
-   mask-repeat: no-repeat;    
-  -webkit-mask-origin: border-box;
-   mask-origin: border-box; 
-}
+/*maldita foto, mierda*/
