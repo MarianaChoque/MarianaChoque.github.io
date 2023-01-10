@@ -4,32 +4,36 @@
 #7C604D Raw umber (marron narmal)
 #362316 Bistre  (marron oscuro)
 #FFEBCD Almond (cremita)*/
+
+* { 
+    box-sizing: border-box;
+}
 html {
     font-family: Tahoma, sans-serif;
 }
+
 body {
-    margin: 0px auto;
     background-color: #FFEBCD   ;
 }
 
 header {
-    background: url("img_de_fondo.jpg");
+    background: url("img_fondo.jpg");
     max-width: 100%;
-    height: 300px;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px auto;
     border: 5px;
-    padding: 45px;
+    padding: 15px;
 }
 
 header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 350px;
+    width: 350px;
     border: 5px solid #FFEBCD ;
-    width: 200px;
-    height: 200px;
     border-radius: 100%;
 }
 
@@ -38,7 +42,7 @@ header h1 {
     font-size: 3rem;
     letter-spacing: 5px;
     color: #FFEBCD ;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 3px 3px 4px #000000;
     margin: 0px auto;
     
 }
@@ -48,7 +52,7 @@ header p {
     font-size: 2rem;
     letter-spacing: 4px;
     color: #FFEBCD ;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 3px 3px 4px #000000;
     margin: 0px auto;
 
 }
@@ -56,17 +60,6 @@ header p {
 section {
     margin: 50px;
     border: 5px;
-    padding: 30px;
+    padding: 70px;
 }
 
-.h2left {
-    text-align: left;
-    float: left;
-
-}
-
-.h2right {
-    text-align: right;
-    font: ;
-    float: right;
-}
