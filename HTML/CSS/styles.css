@@ -7,9 +7,12 @@
 
 * { 
     box-sizing: border-box;
+    text-align: center;
 }
+
 html {
     font-family: Tahoma, sans-serif;
+    font-size: 100%;
 }
 
 body {
@@ -17,49 +20,45 @@ body {
 }
 
 header {
-    background: url("img_fondo.jpg");
+    background: url("img_fondo.jpg") 0.7%;
     max-width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px auto;
-    border: 5px;
-    padding: 15px;
+    margin: auto;
+    border: 2rem;
+    padding: 2rem;
 }
 
 header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 350px;
-    width: 350px;
+    height: 10rem;
+    width: 10rem;
     border: 5px solid #FFEBCD ;
     border-radius: 100%;
 }
 
-header h1 {
-    text-align: center;
-    font-size: 3rem;
-    letter-spacing: 5px;
+header h1, header p {
+    font-size: 2rem;
+    letter-spacing: 1px;
     color: #FFEBCD ;
-    text-shadow: 3px 3px 4px #000000;
+    text-shadow: 2rem #000000;
     margin: 0px auto;
     
 }
 
-header p {
-    text-align: center;
-    font-size: 2rem;
-    letter-spacing: 4px;
-    color: #FFEBCD ;
-    text-shadow: 3px 3px 4px #000000;
-    margin: 0px auto;
-
-}
-
 section {
-    margin: 50px;
+    margin: 20px;
     border: 5px;
-    padding: 70px;
+    padding: 25px 25px;
 }
 
+.right {
+    float: right;
+}
+
+h2 {
+
+}
