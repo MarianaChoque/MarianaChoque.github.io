@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finanzas FC</title>
     <link rel="icon" type="imagenes/x-icon" href="IMG/favicon.png">
-    <!--Bootstrap y CSS-->
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/42781fe946.js" crossorigin="anonymous"></script>
+    <!--Bootstrap 5.3.0 y mi hoja de CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/styles.css">
 
@@ -45,7 +47,7 @@
     <!--Experencia de la persona-->
     <div class="container">
         <div class="row">
-            <div class="col-12 m-3">
+            <div class="col-12 mt-3">
                 <section>
                     <h2>Experiencia</h2>
                 </div>
@@ -72,55 +74,86 @@
             </section>
          </div>
     </div>
-
-    
-    
-    <section>
-    <div>
-        <h2 class="sbt left">Educación</h2>
-        <ul class="left">
-            <li>MBA en Administración de Empresas
-                Institución Increíble, 2006</li>
-            <li>Analista Financiero Certificado. 
-                Institución Increíble, 2017.</li>
-            <li>Seminario de Capacitación en Crypto
-                Institución Increíble, 2022.</li>
-        </ul>
+    <!--Educación de la persona-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mt-5">
+                <section>
+                    <h2>Educación</h2>
+                </div>
+                <div class="col-md-8 my-5">
+                    <ul>
+                        <li>MBA en Administración de Empresas
+                            Institución Increíble, 2006</li>
+                        <li>Analista Financiero Certificado. 
+                            Institución Increíble, 2017.</li>
+                        <li>Seminario de Capacitación en Crypto
+                            Institución Increíble, 2022.</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
     </div>
-    </section>
-    <section>
-    <div>
-        <h2 class="sbt rigth">Habilidades</h2>
-        <ul class="left">
-            <li>Resolución de problemas</li>
-            <li>Capacidad para trabajar de forma independiente y conjunta</li>
-            <li>Excelente relación con el cliente</li>
-        </ul>
-    </div>
-    </section>
-
-    <footer>
-        <section>
-            <form action="enviar a un sript" method="post">
-                <label for="nombre_del_usuario">Nombre: </label><br>
-                <input type="text" id="nombre_del_usuario" class="col-12-form-control" name="nombre_del_usuario" required><br>
-                <label for="email_del_usuario">Email: </label><br>
-                <input type="email" id="email_del_usuario" class="col-12-form-control" name="email_del_usuario" required><br>
-                <textarea name="mansaje_del_usuario" id="mensaje_del_usuario" cols="30" rows="10" placeholder="Consulta" required></textarea>
-                <input type="submit" value="Enviar">
-            </form>
-            <div>
-                <!-- dejo esto en  un coment porque los iconos me alteran el full responsive
-                <h3>Contacto</h3>
-                <img src="IMG/email_icon.png" alt="icon de un correo">
-                <p>florencia.casanova@example.com</p>
-                <img src="IMG/cel_icon.png" alt="icon de un teléfono">
-                <p>(689) 777 6336</p>
-                <img src="IMG/icon_casa.png" alt="icon de una casa">
-                <p>1982 Boulevard Iraq, Ciudad Obregón</p> 
-                -->
+    <!--Habilidades de la persona-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mt-5">
+                <section>
+                    <h2>Habilidades</h2>
+            </div>
+            <div class="col-md-8 my-5">
+                <ul>
+                    <li>Resolución de problemas</li>
+                    <li>Capacidad para trabajar de forma independiente y conjunta</li>
+                    <li>Excelente relación con el cliente</li>
+                </ul>
             </div>
         </section>
-    </footer>
+        </div>
+    </div>
+    <!--Pie de página con formulario de contacto-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 mt-3">
+                <footer>
+                    <h3>Contacto</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <i class="fa-solid fa-at" alt= "icon correo"></i>
+                            </div>
+                            <div class="col-md-3">
+                                <p>florencia.casanova@example.com</p>
+                            </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <i class="fa-solid fa-mobile-screen" alt="icon teléfono"></i>
+                            </div>
+                            <div class="col-md-3">
+                                <p>(689) 777 6336</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <i class="fa-solid fa-house" alt="icon casa"></i>
+                                </div>
+                                <div class="col-md-3">
+                                    <p>1982 Boulevard Iraq, Ciudad Obregón</p>
+                                </div>
+                            <div class="col-md-6">
+                                <section>
+                                <form action="enviar a un sript" method="post">
+                                    <label for="nombre_del_usuario">Nombre: </label><br>
+                                    <input type="text" id="nombre_del_usuario" class="col-12-form-control" name="nombre_del_usuario" required><br>
+                                    <label for="email_del_usuario">Email: </label><br>
+                                    <input type="email" id="email_del_usuario" class="col-12-form-control" name="email_del_usuario" required><br>
+                                    <textarea name="mansaje_del_usuario" id="mensaje_del_usuario" cols="30" rows="10" placeholder="Consulta" required></textarea>
+                                    <input type="submit" value="Enviar">
+                                </form>
+                             </section>
+                        </div>
+                </footer>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
