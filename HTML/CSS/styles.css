@@ -1,18 +1,11 @@
-/* la paleta de colores
-#CA8743 Bronze (marron mas colorido y clarito)
-#A2642A Windsor tan (marron mas colorido)
-#7C604D Raw umber (marron narmal)
-#362316 Bistre  (marron oscuro)
-#FFEBCD Almond (cremita)*/
-
 * { 
     box-sizing: border-box;
-    text-align: center;
 }
 
 html {
     font-family: Tahoma, sans-serif;
     font-size: 100%;
+    font-size: 1.3rem;
 }
 
 body {
@@ -40,22 +33,23 @@ header {
     border-radius: 100%;
 }
 
-.títulop {
+.title {
     font-size: 2rem;
+    text-align: center;
     letter-spacing: 0.2rem;
     color: #FFEBCD ;
     text-shadow: 2.2rem #000000;
-    margin: auto;
-    
 }
 
-.sbt {
+.sbtitle {
     color: #362316;
     font-size: 2rem;
+    text-align: center;
 }
 
-.ssbt {
-    font-size: 1.25rem;
+.ssbtitle {
+    font-size: 1.5rem;
+    text-align: center;
     color: #563926;
 }
 
@@ -70,4 +64,22 @@ footer {
     padding: 2rem;
 }
 
+input[type=text],input[type=email]{
+    padding: 0.313rem;
+    background-color: lightgray;
+    border-radius: 2rem;
+}
+
+.focus:focus{
+    background-color: rgb(176, 175, 175);
+    color: #FFEBCD;
+}
+
+ textarea, input[type=submit] {
+    padding: 0.313rem;
+    margin: 0.5rem;
+    background-color: lightgray;
+    border-radius: 0.5rem;
+    border-width: 1px;
+ }
 

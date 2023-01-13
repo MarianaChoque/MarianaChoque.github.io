@@ -25,19 +25,19 @@
         <div class="row">
             <header>
                 <img src="IMG/Florencia_Ca.jpg" class="foto" alt="foto de la Sra. Casanova">
-                <h1 class="títulop">Florencia Casanova</h1>
-                <p class="títulop"> Analista Financiero</p>
+                <h1 class="title">Florencia Casanova</h1>
+                <p class="title"> Analista Financiero</p>
             </header>
         </div>
     </div>
     <!--Información Introductoria-->
     <div class="container">
         <div class="row">
-            <div class="col-md-4 mt-5">
+            <div class="col-md-4 mt-5 p-3">
                 <section>
-                    <h2>Sobre mí</h2>
+                    <h2 class="sbtitle text-center">Sobre mí</h2>
             </div>
-                <div class="col-md-8 my-5">
+                <div class="text-center col-md-8 my-5">
                     <p>Gestora de contabilidad con 12 años de experiencia,en administración contable, contabilidad empresarial, análisis de riesgos, presupuestos y recursos humanos.<br>
                          Mi experiencia incluye trabajo amplio en finanzas, cobranza, informes financieros y auditorias.</p>
                 </section>        
@@ -50,13 +50,13 @@
         <div class="row">
             <div class="col-12 mt-3">
                 <section>
-                    <h2>Experiencia</h2>
+                    <h2 class="sbtitle">Experiencia</h2>
                 </div>
                 <!-- 2 Contenedor de info de Exp-->
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-6 my-5">
-                            <p>Jefa de finanzas<br>Borcelle, Marzo 2010 - presente</p><br>
+                            <p class="ssbtitle">Jefa de finanzas<br>Borcelle, Marzo 2010 - presente</p><br>
                             <ul>
                                 <li>Diseño, organización y ejecución de las estrategias financieras y contables de la empresa.</li>
                                 <li>Planeamiento de presupuesto y seguimiento de cartera de inversiones nacionales y extranjeras.</li>
@@ -64,7 +64,7 @@
                             </ul>
                         </div>
                         <div class="col-md-6 my-5">
-                            <p>Analista Financiero Senior<br>En Larana.inc, Abril 2020 - Julio 2021</p><br>
+                            <p class="ssbtitle">Analista Financiero Senior<br>En Larana.inc, Abril 2020 - Julio 2021</p><br>
                             <ul>
                                 <li>Estudio de propuesta de inversiones en base a la rentabilidad y viabilidad económica.</li>
                                 <li>Gestión personalizada de clientes potenciales y en cartera.</li>
@@ -83,7 +83,7 @@
         <div class="row">
             <div class="col-md-4 mt-5">
                 <section>
-                    <h2>Educación</h2>
+                    <h2 class="sbtitle">Educación</h2>
                 </div>
                 <div class="col-md-8 my-5">
                     <ul>
@@ -103,7 +103,7 @@
         <div class="row">
             <div class="col-md-4 mt-5">
                 <section>
-                    <h2>Habilidades</h2>
+                    <h2 class="sbtitle">Habilidades</h2>
             </div>
             <div class="col-md-8 my-5">
                 <ul>
@@ -119,34 +119,33 @@
     <!-- 1 Contenedor "Madre"-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 mt-3">
                 <footer>
-                    <h3>Contacto</h3>
+                    <h3 class="title">Contacto</h3>
                     <!-- 2 Contenedor de los contactos y el formulario-->
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 mt-5">
                                 <!-- 3 Contenedor con los iconos e info de contacto-->
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-md-2">
                                             <i class="fa-solid fa-at" alt= "icon correo"></i>
                                         </div>
-                                        <div class="col-md-9">
-                                            <p>florencia.casanova@example.com</p>
+                                        <div class="col-md-10 text-start">
+                                            <p>florencia.C@example.com</p>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-3">
+                                            <div class="col-md-2">
                                                 <i class="fa-solid fa-mobile-screen" alt="icon teléfono"></i>
                                             </div>
-                                            <div class="col-md-9">
+                                            <div class="col-md-10 text-start">
                                                 <p>(689) 777 6336</p>
                                             </div>
                                             <div class="row">
-                                                <div class="col-md-3">
+                                                <div class="col-md-2">
                                                     <i class="fa-solid fa-house" alt="icon casa"></i>
                                                 </div>
-                                                <div class="col-md-9">
+                                                <div class="col-md-10 text-start">
                                                     <p>1982 Boulevard Iraq, Ciudad Obregón</p>
                                                 </div>
                                             </div>
@@ -155,23 +154,45 @@
                                 </div>
                             </div> 
                             <!-- 3 Fin del contenedor con los iconos y info de contacto-->       
-                            <div class="col-md-6">
+                            <div class="col-md-6 mt-5">
                                 <section>
                                 <form action="enviar a un sript" method="post">
-                                    <label for="nombre_del_usuario">Nombre: </label><br>
-                                    <input type="text" id="nombre_del_usuario" class="col-12-form-control" name="nombre_del_usuario" required><br>
-                                    <label for="email_del_usuario">Email: </label><br>
-                                    <input type="email" id="email_del_usuario" class="col-12-form-control" name="email_del_usuario" required><br>
-                                    <textarea name="mansaje_del_usuario" id="mensaje_del_usuario" cols="30" rows="10" placeholder="Consulta" required></textarea>
-                                    <input type="submit" value="Enviar">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <label class="form" for="nombre_del_usuario">Nombre: </label>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <input type="text" id="nombre_del_usuario" class="col-12-form-control focus" placeholder="Raquel" name="nombre_del_usuario" required>
+                                            </div>
+                                            <div class="col-md-3 my-2">
+                                                <label for="email_del_usuario">E-mail: </label>
+                                            </div>
+                                            <div class="col-md-9 my-2">
+                                                <input type="email" id="email_del_usuario" class="col-12-form-control focus" placeholder="raquel@example.com" name="email_del_usuario" required>
+                                            </div>
+                                            <div class="offset-md-3 my-2">
+                                                <textarea name="mensaje" id="mensaje" class="focus" rows="6" placeholder="Consulta"></textarea>
+                                            </div>
+                                            <div class="offset-md-5">
+                                            <input type="submit" class="focus" value="Enviar">
+                                        </div>
                                 </form>
                              </section>
                             </div>
                     <!-- 2 Fin del contenedor del formulario y contactos-->
                 </footer>
-            </div>
         </div>
     </div>
-<!-- 1 Fin del Contenedor "Madre"-->
+    <!-- 1 Fin del Contenedor "Madre"-->
+
+
+
+    <!--PASOS A SEGUIR: ARREGLAR EL RESPONSIVE,
+         CAMBIAR EL FONT, 
+         PONERLE BACKGROUND A LOS SUBTÍTULOS
+         PONER ANIMACIONES LINDAS AL FORMULARIO (VER VIDEO DE HOLA MUNDO)
+         AÑADIR EVENTOS CON JACASCRIPT
+         TERMINAR EL OPEN GRHAP-->
 </body>
 </html>
