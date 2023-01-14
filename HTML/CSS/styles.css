@@ -3,9 +3,8 @@
 }
 
 html {
-    font-family: Tahoma, sans-serif;
+    font-family: 'Quicksand',Tahoma, sans-serif;
     font-size: 100%;
-    font-size: 1.3rem;
 }
 
 body {
@@ -13,7 +12,7 @@ body {
 }
 
 header {
-    background: url("img_fondo.jpg") ;
+    background-image: url("img_fondo.jpg") ;
     max-width: 100%;
     height: auto;
     background-repeat: no-repeat;
@@ -38,19 +37,22 @@ header {
     text-align: center;
     letter-spacing: 0.2rem;
     color: #FFEBCD ;
-    text-shadow: 2.2rem #000000;
+    text-shadow: 0.063em 0.063rem 0.125rem #000000;
 }
 
 .sbtitle {
-    color: #362316;
+    color: #FFEBCD;
     font-size: 2rem;
     text-align: center;
+    background-color: #362316;
+    border-radius: 2rem;
+    height: 3rem;
 }
 
 .ssbtitle {
     font-size: 1.5rem;
     text-align: center;
-    color: #563926;
+    color: #362316;
 }
 
 footer {
@@ -65,9 +67,11 @@ footer {
 }
 
 input[type=text],input[type=email]{
+    transition: box-shadow 0.3s ease;
     padding: 0.313rem;
     background-color: lightgray;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 .focus:focus{
@@ -76,10 +80,13 @@ input[type=text],input[type=email]{
 }
 
  textarea, input[type=submit] {
-    padding: 0.313rem;
-    margin: 0.5rem;
+    transition: box-shadow 0.3s ease;
     background-color: lightgray;
     border-radius: 0.5rem;
     border-width: 1px;
+    cursor: pointer;
  }
 
+.hover:hover {
+    box-shadow: 0 0.1rem 0.4rem #FFEBCD;
+}

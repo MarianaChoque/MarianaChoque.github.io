@@ -8,9 +8,10 @@
     <link rel="icon" type="imagenes/x-icon" href="IMG/favicon.png">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/42781fe946.js" crossorigin="anonymous"></script>
-    <!--Bootstrap 5.3.0 y mi hoja de CSS-->
+    <!--Bootstrap 5.3.0, mi hoja de CSS, google font-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 
     <!--Open Graph data provisorio, HAY MAS-->
     <meta property="og:title" content="web semantica">
@@ -23,11 +24,11 @@
     <!--Encabezado-->
     <div class="container-fluid">
         <div class="row">
-            <header>
-                <img src="IMG/Florencia_Ca.jpg" class="foto" alt="foto de la Sra. Casanova">
-                <h1 class="title">Florencia Casanova</h1>
-                <p class="title"> Analista Financiero</p>
-            </header>
+                <header>
+                    <img src="IMG/Florencia_Ca.jpg" class="foto" alt="foto de la Sra. Casanova">
+                    <h1 class="title">Florencia Casanova</h1>
+                    <p class="title"> Analista Financiero</p>
+                </header>
         </div>
     </div>
     <!--Información Introductoria-->
@@ -122,30 +123,30 @@
                 <footer>
                     <h3 class="title">Contacto</h3>
                     <!-- 2 Contenedor de los contactos y el formulario-->
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-6 mt-5">
+                            <div class="col-12 col-md-6 mt-5">
                                 <!-- 3 Contenedor con los iconos e info de contacto-->
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-md-2">
+                                        <div class="col-12 col-md-2">
                                             <i class="fa-solid fa-at" alt= "icon correo"></i>
                                         </div>
-                                        <div class="col-md-10 text-start">
+                                        <div class="col-12 col-md-10 text-start">
                                             <p>florencia.C@example.com</p>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-2">
+                                            <div class="col-12 col-md-2">
                                                 <i class="fa-solid fa-mobile-screen" alt="icon teléfono"></i>
                                             </div>
-                                            <div class="col-md-10 text-start">
+                                            <div class="col-12 col-md-10 text-start">
                                                 <p>(689) 777 6336</p>
                                             </div>
                                             <div class="row">
-                                                <div class="col-md-2">
+                                                <div class="col-12 col-md-2">
                                                     <i class="fa-solid fa-house" alt="icon casa"></i>
                                                 </div>
-                                                <div class="col-md-10 text-start">
+                                                <div class="col-12 col-md-10 text-start">
                                                     <p>1982 Boulevard Iraq, Ciudad Obregón</p>
                                                 </div>
                                             </div>
@@ -162,21 +163,26 @@
                                             <div class="col-md-3">
                                                 <label class="form" for="nombre_del_usuario">Nombre: </label>
                                             </div>
-                                            <div class="col-md-9">
-                                                <input type="text" id="nombre_del_usuario" class="col-12-form-control focus" placeholder="Raquel" name="nombre_del_usuario" required>
+                                            <div class="col-md-6">
+                                                <input type="text" id="nombre_del_usuario" class="focus hover" placeholder="Raquel" name="nombre_del_usuario" required>
                                             </div>
-                                            <div class="col-md-3 my-2">
-                                                <label for="email_del_usuario">E-mail: </label>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <label for="email_del_usuario">Email: </label>
                                             </div>
-                                            <div class="col-md-9 my-2">
-                                                <input type="email" id="email_del_usuario" class="col-12-form-control focus" placeholder="raquel@example.com" name="email_del_usuario" required>
+                                            <div class="col-md-6">
+                                                <input type="email" id="email_del_usuario" class="focus hover" placeholder="raquel@example.com" name="email_del_usuario" required>
                                             </div>
-                                            <div class="offset-md-3 my-2">
-                                                <textarea name="mensaje" id="mensaje" class="focus" rows="6" placeholder="Consulta"></textarea>
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-5 my-3">
+                                                <textarea name="mensaje" id="mensaje" class="focus hover" rows="6" placeholder="Consulta"></textarea>
                                             </div>
-                                            <div class="offset-md-5">
-                                            <input type="submit" class="focus" value="Enviar">
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-2">
+                                                <input type="submit" class="focus hover" value="Enviar">
+                                            </div>
                                         </div>
+                                    </div>
                                 </form>
                              </section>
                             </div>
@@ -188,11 +194,14 @@
 
 
 
-    <!--PASOS A SEGUIR: ARREGLAR EL RESPONSIVE,
-         CAMBIAR EL FONT, 
-         PONERLE BACKGROUND A LOS SUBTÍTULOS
-         PONER ANIMACIONES LINDAS AL FORMULARIO (VER VIDEO DE HOLA MUNDO)
-         AÑADIR EVENTOS CON JACASCRIPT
-         TERMINAR EL OPEN GRHAP-->
+    <!--PASOS A SEGUIR: 
+        FIJARSE EL FORM (TENGO QUE AGREGAR UN SRCIPRT)
+        EVENTOS QUE QUIERO AGREGAR CON JS:
+          QUE APAREZCAN DE APOCO EL CONTENIDO MIENTRAS VAS BAJAS
+          MENSAJE DEL BOTON
+
+        TERMINAR EL OPEN GRHAP
+
+        Ponerlo en el servidor y entregar-->
 </body>
 </html>
