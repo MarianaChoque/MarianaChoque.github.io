@@ -90,3 +90,39 @@ input[type=text],input[type=email]{
 .hover:hover {
     box-shadow: 0 0.1rem 0.4rem #FFEBCD;
 }
+i {
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.animado {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.mostrarDerecha {
+    animation: mostrarDerecha 1s;
+}
+
+@keyframes mostrarDerecha {
+    0% {
+        transform: translatex(60px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.mostrarIzquierda {
+    animation: mostrarIzquierda 1s;
+}
+@keyframes mostrarIzquierda {
+    0% {
+        transform: translatex(-60px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

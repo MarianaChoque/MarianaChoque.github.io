@@ -12,7 +12,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-
     <!--Open Graph data provisorio, HAY MAS-->
     <meta property="og:title" content="web semantica">
     <meta property="og:type" content="por ej article">
@@ -36,7 +35,7 @@
         <div class="row">
             <div class="col-md-4 mt-5 p-3">
                 <section>
-                    <h2 class="sbtitle text-center">Sobre mí</h2>
+                    <h2 class="sbtitle text-center animado mostrarDerecha">Sobre mí</h2>
             </div>
                 <div class="text-center col-md-8 my-5">
                     <p>Gestora de contabilidad con 12 años de experiencia,en administración contable, contabilidad empresarial, análisis de riesgos, presupuestos y recursos humanos.<br>
@@ -51,7 +50,7 @@
         <div class="row">
             <div class="col-12 mt-3">
                 <section>
-                    <h2 class="sbtitle">Experiencia</h2>
+                    <h2 class="sbtitle animado mostrarIzquierda">Experiencia</h2>
                 </div>
                 <!-- 2 Contenedor de info de Exp-->
                 <div class="container-fluid">
@@ -84,7 +83,7 @@
         <div class="row">
             <div class="col-md-4 mt-5">
                 <section>
-                    <h2 class="sbtitle">Educación</h2>
+                    <h2 class="sbtitle animado mostrarDerecha">Educación</h2>
                 </div>
                 <div class="col-md-8 my-5">
                     <ul>
@@ -104,7 +103,7 @@
         <div class="row">
             <div class="col-md-4 mt-5">
                 <section>
-                    <h2 class="sbtitle">Habilidades</h2>
+                    <h2 class="sbtitle animado mostrarIzquierda">Habilidades</h2>
             </div>
             <div class="col-md-8 my-5">
                 <ul>
@@ -129,21 +128,21 @@
                                 <!-- 3 Contenedor con los iconos e info de contacto-->
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-12 col-md-2">
+                                        <div class="col-12 col-md-1">
                                             <i class="fa-solid fa-at" alt= "icon correo"></i>
                                         </div>
                                         <div class="col-12 col-md-10 text-start">
                                             <p>florencia.C@example.com</p>
                                         </div>
                                         <div class="row">
-                                            <div class="col-12 col-md-2">
+                                            <div class="col-12 col-md-1">
                                                 <i class="fa-solid fa-mobile-screen" alt="icon teléfono"></i>
                                             </div>
                                             <div class="col-12 col-md-10 text-start">
                                                 <p>(689) 777 6336</p>
                                             </div>
                                             <div class="row">
-                                                <div class="col-12 col-md-2">
+                                                <div class="col-12 col-md-1">
                                                     <i class="fa-solid fa-house" alt="icon casa"></i>
                                                 </div>
                                                 <div class="col-12 col-md-10 text-start">
@@ -157,7 +156,7 @@
                             <!-- 3 Fin del contenedor con los iconos y info de contacto-->       
                             <div class="col-md-6 mt-5">
                                 <section>
-                                <form action="enviar a un sript" method="post">
+                                <form action="/action_page.php" onsubmit="boton()" method="get">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-md-3">
@@ -191,17 +190,11 @@
         </div>
     </div>
     <!-- 1 Fin del Contenedor "Madre"-->
-
-
-
-    <!--PASOS A SEGUIR: 
-        FIJARSE EL FORM (TENGO QUE AGREGAR UN SRCIPRT)
-        EVENTOS QUE QUIERO AGREGAR CON JS:
-          QUE APAREZCAN DE APOCO EL CONTENIDO MIENTRAS VAS BAJAS
-          MENSAJE DEL BOTON
-
+    <script src="JS/eventos.js"></script>
+    <!--
         TERMINAR EL OPEN GRHAP
 
-        Ponerlo en el servidor y entregar-->
+        Ponerlo en el servidor y entregar
+    -->
 </body>
 </html>
