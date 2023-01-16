@@ -103,7 +103,7 @@ i {
 }
 
 .mostrarDerecha {
-    animation: mostrarDerecha 1s;
+    animation: mostrarDerecha 5s;
 }
 
 @keyframes mostrarDerecha {
@@ -116,7 +116,7 @@ i {
 }
 
 .mostrarIzquierda {
-    animation: mostrarIzquierda 1s;
+    animation: mostrarIzquierda 5s;
 }
 @keyframes mostrarIzquierda {
     0% {
